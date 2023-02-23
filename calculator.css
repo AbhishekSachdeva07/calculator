@@ -1,0 +1,41 @@
+#btn{
+    width: 30px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: large;
+    border: solid;
+    
+}
+body{
+    background-color: rgb(251, 247, 247);
+}
+input{
+    padding: 4px;
+    border-radius: 15px;
+    text-align: left;
+    border: solid black;
+
+}
+#b{
+    width: 65px;
+    border-radius: 80px;
+    text-align: center;
+    font-size: large;
+    border: solid;
+}
+.calculator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid;
+    padding: 15px;
+    width: 500px;
+    background-color: antiquewhite;
+    animation: 4s gg infinite alternate;
+
+}
+@keyframes gg {
+    0% {background-color: antiquewhite;}
+    100% {background-color: rgb(10, 55, 82); color: rgb(244, 248, 248);}
+}
