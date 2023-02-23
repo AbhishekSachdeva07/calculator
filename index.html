@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>CALCULATOR</h1>
+        <input type="text" readonly id="read"><br>
+        <button onclick="clearresult()" id="b">CE</button>
+        <button onclick="calculate('%')" id="btn">%</button>
+        <button onclick="calculate('/')" id="btn">/</button><br>
+        <button onclick="addtoresult('7')" id="btn">7</button>
+        <button onclick="addtoresult('8')" id="btn">8</button>
+        <button onclick="addtoresult('9')" id="btn">9</button>
+        <button onclick="calculate('*')" id="btn">*</button><br>
+        <button onclick="addtoresult('4')" id="btn">4</button>
+        <button onclick="addtoresult('5')" id="btn">5</button>
+        <button onclick="addtoresult('6')" id="btn">6</button>
+        <button onclick="calculate('-')" id="btn">-</button>
+        <br>
+        <button onclick="addtoresult('1')" id="btn">1</button>
+        <button onclick="addtoresult('2')" id="btn">2</button>
+        <button onclick="addtoresult('3')" id="btn">3</button>
+        <button onclick="calculate('+')" id="btn">+</button>
+        <br>
+        <button onclick="addtoresult('0')" id="b">0</button>
+        <button onclick="addtoresult('.')" id="btn">.</button>
+        <button onclick="calculate('=')" id="btn">=</button>
+        
+        
+    </div>
+</body>
+<script src="calculator.js"></script>
+</html>
